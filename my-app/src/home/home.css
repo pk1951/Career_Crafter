@@ -1,0 +1,167 @@
+.unique-body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  position: relative; /* Ensure the video background is relative to the body */
+
+}
+
+.unique-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(17, 165, 165);
+  color: #fff;
+  padding: 15px;
+  width: 100%;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.llllssss {
+  
+    height: 100px;
+    background-color: aqua;
+    opacity: 80%;
+    margin-right: 600px;
+}
+
+
+.unique-job-portal-logo {
+  margin: 20px 0;
+  max-width: 100%;
+  padding-bottom: 90px;
+  padding-right:1050px;
+} 
+
+.logo-nmmmma{
+  position:absolute;
+  top:10px;
+  left:10px;
+  font-size:40px;
+  
+}
+.unique-job-portal-button {
+  background-color: rgb(38, 194, 129);
+  color: #fff;
+  padding: 15px 30px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.unique-job-portal-button:hover {
+  background-color: rgb(27, 135, 92);
+}
+
+.unique-profile-button {
+  margin-left: auto;
+  background-color: rgb(120, 74, 161);
+  color: #fff; /* Added text color */
+  border: none; /* Removed border */
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 15px 30px; /* Same size as other buttons */
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.unique-profile-button:hover {
+  background-color: rgb(99, 60, 131);
+}
+
+.unique-search-section {
+  text-align: center;
+  padding: 40px;
+  max-width: 800px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.unique-search-section h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  color: rgb(17, 165, 165);
+}
+
+.unique-search-section p {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #495057;
+}
+
+.unique-search-box {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.unique-input {
+  padding: 20px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.unique-input:first-child {
+  margin-right: 0;
+}
+
+.unique-find-jobs-button {
+  background-color: rgb(17, 165, 165);
+  color: #fff;
+  padding: 15px 30px; /* Same size as other buttons */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.unique-find-jobs-button:hover {
+  background-color: rgb(15, 148, 148);
+}
+
+.unique-footer-info {
+  background-color: rgb(17, 165, 165);
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+  width: 100%;
+  margin-top:300px;
+}
+
+.unique-footer-info-link {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.unique-footer-info-link:hover {
+  color: #adb5bd;
+}
+
+
+
+.video-background {
+ position: absolute;
+  top: 160px;
+  left: 0;
+  /* bottom:50px; */
+  width: 100%;
+  height: 65%;
+  object-fit:cover;
+  z-index: 0;
+  opacity: 0.4; /* Set the transparency level */
+}

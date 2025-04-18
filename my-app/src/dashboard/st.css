@@ -1,0 +1,264 @@
+.uniqueHeader {
+    background-color: rgb(17, 165, 165);
+    color: #fff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+#dashboar{
+    text-align: center;
+    margin-left: 500px;
+    color: black;
+}
+
+#uniqueFf {
+    margin-left: 20px;
+}
+
+.uniqueProfileContainer {
+    font-size: 20px;
+    text-align: center;
+    width: 25%;
+    height: 1002px;
+    margin: 60px 0;
+    position: relative;
+    background-color: rgb(196, 226, 236);
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 100px;
+    /* margin-right:40px; */
+    border-radius: 20px;
+    border: solid black 2px;
+    box-shadow: 0 0 20px rgb(17, 165, 165);
+}
+
+.uniqueUserImageContainer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.uniqueUserImage {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+
+.uniqueUserImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.uniqueUserDetails,
+.uniqueUpdateForm {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.uniqueUserDetails h2 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.uniqueUserDetails p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.uniqueUpdateForm label {
+    display: inline-block;
+    width: 80px;
+    margin-bottom: 5px;
+}
+
+.uniqueUpdateForm input {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.uniqueUpdateForm button {
+    background-color: rgb(17, 165, 165);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: solid rgb(17, 165, 165) 2px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.uniqueUpdateForm button:hover {
+    background-color: white;
+    color:rgb(17, 165, 165);
+}
+
+#uniqueAdditionalDetailsForm table {
+    width: 100%;
+}
+
+#uniqueAdditionalDetailsForm table td {
+    padding: 10px; 
+}
+
+#uniqueAdditionalDetailsForm table label {
+    display: inline-block;
+    width: 80px;
+    margin-bottom: 5px;
+}
+
+#uniqueAdditionalDetailsForm table input {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#uniqueAdditionalDetailsForm button {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.uniqueResumeGeneratorContainer {
+    width: 60%;
+    position: absolute;
+    top: 79px;
+    right: 90px;
+    background-color: rgb(196, 226, 236);
+    border-radius: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: solid black 2px;
+    font-size: 20px;
+    text-align: center;
+    margin-top:60px;
+    margin-left: 40px;
+    padding-bottom: 60px;
+    box-shadow: 0 0 10px rgb(17, 165, 165);
+}
+
+.uniqueResumeGeneratorContainer h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.uniqueResumeGeneratorForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.uniqueResumeGeneratorForm input,
+.uniqueResumeGeneratorForm textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.uniqueResumeGeneratorForm button {
+    background-color: rgb(17, 165, 165);
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    border: solid rgb(17, 165, 165) 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 68%;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    
+}
+
+.uniqueResumeGeneratorForm button:hover {
+    background-color: white;
+    color:rgb(17, 165, 165);
+}
+
+.uniqueResumeGeneratorForm {
+    display: inline-block;
+    text-align: left;
+}
+
+.uniqueResumeGeneratorForm table {
+    width: 100%;
+}
+
+.uniqueResumeGeneratorForm table th,
+.uniqueResumeGeneratorForm table td {
+    padding: 10px;
+}
+
+.uniqueResumeGeneratorForm table th {
+    font-weight: bold;
+}
+
+.uniqueResumeGeneratorForm {
+    display: inline-block;
+    text-align: left;
+}
+
+.uniqueResumeGeneratorForm table {
+    width: 100%;
+}
+
+.uniqueResumeGeneratorForm table th,
+.uniqueResumeGeneratorForm table td {
+    padding: 10px;
+}
+
+#uniqueD {
+    text-align: center;
+    font-weight: solid black 2px;
+}
+
+.unique-foinfo {
+    background-color: rgb(17, 165, 165);
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    width: 100%;
+    margin-top: 100px;
+    border-radius: 20px; 
+}
+
+.applejob {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px; 
+    text-decoration: none;
+    border-radius: 8px; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: rgb(17, 165, 165);
+    color: #ffffff;
+    border: 2px solid rgb(17, 165, 165);
+}
+
+.applejob:hover {
+    background-color: #ffffff;
+    color: rgb(17, 165, 165);
+  }
+
+.logout {
+       margin-left: 60px;
+       display: inline-block;
+       padding: 10px 20px;
+       font-size: 18px;
+       text-decoration: none;
+       border-radius: 8px; 
+       transition: background-color 0.3s ease, color 0.3s ease;
+       background-color: rgb(17, 165, 165);
+       color: #ffffff;
+       border: 2px solid rgb(17, 165, 165);
+       position: absolute;
+       bottom: 60px;
+       right:10px;
+}
+
+.logout:hover {
+    background-color: #ffffff;
+    color: rgb(17, 165, 165);
+  }

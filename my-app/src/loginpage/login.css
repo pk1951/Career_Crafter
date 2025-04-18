@@ -1,0 +1,119 @@
+/* YourUniqueStyles.css */
+
+.unique-body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.unique-header {
+  background-color: #ffffff;
+  color: rgb(17, 165, 165);
+  padding: 5px;
+  /* text-align: center; */
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.unique-logo {
+  height: 100px;
+  position: relative;
+  top:10px;
+  margin-left: 0px;
+}
+
+.unique-main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+}
+
+.unique-logininfo {
+  background-color: #f0f8ff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 40%;
+  margin: 0 auto;
+  margin-left: 50px;
+}
+
+.unique-logindiv {
+  flex: 1;
+  margin-right: 50px;
+}
+
+.unique-logininfo h2 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+} 
+
+.unique-input-group {
+  margin-bottom: 10px;
+}
+
+.unique-input-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.unique-input-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.unique-button-group {
+  text-align: center;
+}
+
+.unique-button-group button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.unique-button-group img {
+  border-radius: 50%;
+  margin: 7px;
+}
+
+#unique-ee {
+  border-radius: 30%;
+  padding-bottom: 5px;
+}
+
+.unique-logininfo {
+  background-color: #f0f8ff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 40%;
+  margin: 0;
+}
+
+.unique-logindiv {
+  flex: 1;
+  margin-right: 50px;
+}
+
+#unique-ff {
+  color: rgb(17, 165, 165);
+}
+
+.unique-input-group label {
+  font-weight: bold;
+  color: black;
+}
+
+.unique-logininfo h2 {
+  font-weight: bold;
+  color: black;
+}

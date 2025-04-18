@@ -1,0 +1,102 @@
+/* TrendingJobsPageStyles.css */
+
+.trending-jobs-body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  .trending-jobs-header {
+    background-color: rgb(17, 165, 165);
+    height: 200px;
+    width: 100%;
+  }
+  
+  .trending-jobs-header h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    color: rgba(58, 38, 38, 0.894);
+    padding-top: 30px;
+  }
+  
+  .trending-jobs-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .job-item {
+    margin: 30px 20px; /* Adjusted margin space between jobs */
+    text-align: center;
+    flex: 0 0 calc(25% - 40px);
+    max-width: 250px;
+  }
+  
+  .job-details {
+    margin-top: 10px;
+    text-align: left;
+  }
+  
+  .job-details h3 {
+    color: rgb(17, 165, 165);
+  }
+  
+  .company {
+    color: rgb(17, 165, 165);
+  }
+  
+  .location {
+    color: rgb(17, 165, 165);
+  }
+  
+  .description {
+    margin-bottom: 10px;
+  }
+  
+  .requirements {
+    color: rgb(17, 165, 165);
+  }
+  
+  .applyjob {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: rgb(17, 165, 165);
+    color: #ffffff;
+    border: 2px solid rgb(17, 165, 165);
+    padding: 10px 20px;
+    margin-top: 10px;
+  }
+  
+  .applyjob:hover {
+    background-color: #ffffff;
+    color: rgb(17, 165, 165);
+  }
+  
+  .trending-jobs-footer-info {
+    background-color: rgb(17, 165, 165);
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    width: 100%;
+  }
+  
+  .trending-jobs-footer-info-link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .trending-jobs-footer-info-link:hover {
+    color: #adb5bd;
+  }
+  

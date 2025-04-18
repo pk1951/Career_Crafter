@@ -1,0 +1,59 @@
+.jn {
+    font-size: 180px;
+    position: static;
+    padding-left: 40px;
+    margin-top: 2%;
+    margin-bottom: 70px;
+    font-weight: bold; 
+}
+
+.wbnum{
+    text-decoration-line: underline;
+    padding-left: 50px;
+    font-size: 30px;
+    color: black;
+}
+
+#logindiv {
+    height: 800px;
+    width:600px;
+    background-color: darkblue;
+    border-radius: 25px;
+}
+
+.logoname {
+    
+        font-size: 180px;
+        position:static;
+        padding-left:20px;
+        margin-top:2%;
+        margin-bottom: 70px;
+    
+}
+
+#button {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    color: rgb(17, 165, 165);
+    font-weight: bold;
+    border-color: black;
+    border-radius: 5px;
+    font-size: 40px;
+    transition: background-color 0.3s ease; 
+  }
+  
+  #button:hover {
+    background: rgb(52, 137, 107);
+    color: white; 
+  }
+
+.nmae{
+    font-size: 180px;
+    color: rgb(17, 165, 165);
+    position:static;
+    padding-left:50px;
+    margin-top:2%;
+    margin-bottom: 70px;
+    font-weight: 700;
+}
